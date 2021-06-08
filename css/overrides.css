@@ -18,3 +18,31 @@
     padding-top: 100px;
   }
 }
+
+/* Cases */
+
+.tokyo_tm_about .description_inner {
+  display: block;
+}
+
+.tokyo_tm_modalbox_news .main_content {
+  display: flex;
+}
+.tokyo_tm_modalbox_news .main_content .video {
+  margin-right: 50px;
+}
+
+@media (max-width:  700px) {
+  .tokyo_tm_modalbox_news .main_content {
+    display: block;
+  }
+  .tokyo_tm_modalbox_news .main_content .video {
+    margin-right: 0;
+  }  
+}
+
+
+
+.tokyo_tm_modalbox_news .image {
+  /*display: none;*/
+}
