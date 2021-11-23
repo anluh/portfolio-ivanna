@@ -1,3 +1,7 @@
+a {
+  color: #5fae9a;
+}
+
 .tokyo_tm_all_wrap .leftpart {
   padding: 0 50px;
   width: 300px;
@@ -51,8 +55,31 @@
   }  
 }
 
-
-
 .tokyo_tm_modalbox_news .image {
   /*display: none;*/
+}
+
+.tokyo_tm_news > ul,
+.tokyo_tm_news > li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list_inner {
+  height: 100% !important;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.list_inner .details {
+  flex: 1;
+}
+
+.list_inner img {
+  max-height: 260px;
+}
+
+.tokyo_tm_modalbox_news .description_wrap .image .main {
+  background-size: contain;
 }
